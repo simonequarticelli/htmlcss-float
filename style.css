@@ -19,15 +19,15 @@ main::after{
 .col_1{
   float: left;
   width: 300px;
-  height: 350px;
+  height: 360px;
   background-color: white;
   border-radius: 3%;
   margin-top: 20px;
-  margin-left: 300px;
+  margin-left: 200px;
 }
 
 .img_radius{
-  background-image: url();
+  background-image: url(simone.jpg);
   background-size: cover;
   width: 120px;
   height: 120px;
@@ -35,12 +35,18 @@ main::after{
   border-radius: 50%;
   margin: 0 auto;
   margin-top: 10px;
+  border-style: inset;
 }
 
 .text{
   text-align: center;
   font-size: 15px;
   font-family: arial;
+}
+
+.text p{
+  text-align: justify;
+  padding: 15px;
 }
 
 button{
@@ -59,7 +65,7 @@ h2{
   height: 100px;
   float: left;
   background-color: white;
-  margin-top: 50px;
+  margin-top: 30px;
   border-radius: 3%;
 }
 
@@ -69,15 +75,20 @@ h2{
   float: right;
   background-color: white;
   margin-top: 20px;
-  margin-right: 300px;
+  margin-right: 200px;
   border-radius: 3%;
   padding: 20px 20px;
 }
 
-ul li {
+.black{
+  color: black;
+}
+
+ul li{
   display: inline-block;
-  font-size: 40px;
+  font-size: 35px;
   padding: 10px;
+  opacity: 0.1;
 }
 
 ul{
@@ -87,8 +98,8 @@ ul{
 
 footer{
   height: 160px;
-  margin-left: 300px;
-  margin-right: 300px;
+  margin-left: 200px;
+  margin-right: 200px;
   background-color: white;
   margin-top: 20px;
   margin-bottom: 20px;
@@ -109,10 +120,15 @@ footer{
   width: 330px;
   height: 120px;
   margin-top: 20px;
-  overflow: auto;
 }
 
 .icon_footer{
   float: right;
   padding-bottom: 10px;
+
+}
+
+.resize{
+  width: 100px;
+  height: 120px;
 }
