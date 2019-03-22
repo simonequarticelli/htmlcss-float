@@ -76,7 +76,7 @@ h2{
 
 ul li {
   display: inline-block;
-  font-size: 20px;
+  font-size: 40px;
   padding: 10px;
 }
 
@@ -86,20 +86,20 @@ ul{
 }
 
 footer{
-  height: 150px;
+  height: 160px;
   margin-left: 300px;
   margin-right: 300px;
   background-color: white;
   margin-top: 20px;
   margin-bottom: 20px;
   border-radius: 3%;
-  padding: 20px;
+  padding: 15px;
 }
 
 .img{
   float: left;
   width: 100px;
-  height: 100px;
+  height: 120px;
   margin-top: 20px;
   background-color: grey;
 }
@@ -107,11 +107,12 @@ footer{
 .paragrafo{
   float: right;
   width: 330px;
-  height: 100px;
+  height: 120px;
   margin-top: 20px;
   overflow: auto;
 }
 
 .icon_footer{
   float: right;
+  padding-bottom: 10px;
 }
